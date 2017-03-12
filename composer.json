@@ -1,0 +1,17 @@
+{
+  "name": "samsara/fermat-gambling",
+  "description": "A module for the samsara/fermat library that adds objects for dice, cards, and other games of chance.",
+  "minimum-stability": "dev",
+  "license": "GPL-2.0",
+  "require": {
+    "samsara/fermat": "1.*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "5.7.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Samsara\\Fermat\\": "src/Samsara/Fermat"
+    }
+  }
+}
